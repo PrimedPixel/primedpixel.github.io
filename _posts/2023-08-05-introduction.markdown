@@ -1,10 +1,12 @@
 ---
 title: "Hi, I'm Primed Pixel"
 date: 2023-08-05 02:18:52 +0100
-categories: [all]
-tags: []
+categories: [Website]
+tags: [game development, music production, youtube]
 author: <primedpixel>
 ---
+![Primed Pixel Logo](/images/primedpixel-logo.png){: w="1920" h="1080"}
+_The Primed Pixel Logo_
 
 ## Introduction
 
@@ -30,7 +32,7 @@ Said soundtracks can be found on pretty much all music streaming platforms. The 
 
 ## YouTube
 
-I also am an avid content creator -- *christ it sounds like i'm writing my CV here*. However, does that mean I post regularly? No! Of course not, and it's very silly to assume such. I pretty much focus on three channels: gamedev, music production, and gaming (or "let's plays" if we're back in 2012 now).
+I also am an avid content creator -- *christ it sounds like i'm writing a bad CV here*. However, does that mean I post regularly? No! Of course not, and it's very silly to assume such. I pretty much focus on three channels: gamedev, music production, and gaming (or "let's plays" if we're back in 2012 now).
 
 ### [Primed Pixel Music](https://www.youtube.com/c/PrimedPixelMusic)
 
