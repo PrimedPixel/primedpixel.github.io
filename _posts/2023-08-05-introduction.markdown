@@ -1,7 +1,7 @@
 ---
 title: "Hi, I'm Primed Pixel"
 date: 2023-08-05 02:18:52 +0100
-categories: [Website]
+categories: [Website, YouTube]
 tags: [game development, music production, youtube]
 author: <primedpixel>
 ---
