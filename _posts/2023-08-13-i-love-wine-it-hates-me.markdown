@@ -1,8 +1,8 @@
 ---
 title: "I love WINE; it hates me."
 date: 2023-08-13 01:06:58 +0100
-categories: [Music Production, YouTube]
-tags: [music production, youtube, linux, wine, mixcraft]
+categories: [Music Production, Game Development]
+tags: [music production, gamedev, linux, wine, mixcraft, gamemaker, godot]
 author: <primedpixel>
 ---
 
@@ -35,8 +35,7 @@ Mixcraft is the name of the game. Specifically, Mixcraft 9: Recording Studio. Wh
 
 WINE can be complicated to set up, particularly for a novice Linux user, such as myself. Many programs exist (particularly for gaming) to help with this, such as [Lutris](https://lutris.net/), or even [Steam](https://store.steampowered.com/) through [Proton](https://github.com/ValveSoftware/Proton), a custom version of WINE optimised for gaming. To help with my DAW troubles, however, I decided to use [Bottles](https://usebottles.com/). Bottles is a program that manages WINE prefixes (i.e., separate configurations of WINE, all running in different locations), and ensures a sandboxed environment, which can be useful a lot of the time. It *can* also be a bloody pain, but doesn't end up interrupting my workflow, really.
 
-![Music Production Bottle in Bottles](/images/i-love-wine-it-hates-me/music-production-bottle.png){: w="1002" h="762" .left .shadow}
-So, after some initial set up, I managed to get Mixcraft working... in the Flatpak version of Bottles. Whilst this was actually a good thing, as Bottles encourages running through a Flatpak to ensure full sandboxing, it still baffles me that I could only get Mixcraft to work in this particular version, even if the runner is the same. What changes you ask? Well, for whatever reason, the non-Flatpak version of Bottles cannot use my audio device, thus I get absolutely no audio whatsoever -- which is kind of important if making music, I think.
+![Music Production Bottle in Bottles](/images/i-love-wine-it-hates-me/music-production-bottle.png){: w="1002" h="762" } So, after some initial set up, I managed to get Mixcraft working... in the Flatpak version of Bottles. Whilst this was actually a good thing, as Bottles encourages running through a Flatpak to ensure full sandboxing, it still baffles me that I could only get Mixcraft to work in this particular version, even if the runner is the same. What changes you ask? Well, for whatever reason, the non-Flatpak version of Bottles cannot use my audio device, thus I get absolutely no audio whatsoever -- which is kind of important if making music, I think.
 
 Either way, when all is said and done, Mixcraft works quite well, and I've got VST support through WINE. Sure, there's been some hiccups, but overall nothing that 30 minutes on Google couldn't fix, such as the dreaded *Native Instruments VST install*. Although, ASIO is a pain in the backside that I just can't deal with right now -- if you need low latency for recording from something like a MIDI controller, be my guest and get [WineASIO](https://github.com/wineasio/wineasio) working, but for me, it's [more trouble than it's worth](https://www.reddit.com/r/winehq/comments/wmyj90/cant_make_wineasiodll/) *(mainly because [JACK](https://jackaudio.org/) is more trouble than it's worth)*
 
@@ -54,4 +53,4 @@ Esync is likely to be the only thing that ended up mattering here, but I also th
 
 Even with that, WINE is not perfect, and I still get weird, and frankly annoying crashes in Mixcraft, from time to time. This is *not* an insult or criticism to the people who make WINE possible, however, but rather a warning to those who could -- and should -- use WINE. So, for the one person that sees this, please *for the love of all things holy*, do ***not*** press play and save in Mixcraft at the same time. You will corrupt your project file and have to use a backup, which is a minor inconvenience if you didn't save recently. Especially if you just cut up a bunch of takes playing the Casino Night Zone theme from Sonic 2.
 
-![Casino Night Zone takes inside Mixcraft DAW](/images/i-love-wine-it-hates-me/casino-night-zone-takes){: w="704" h="168"}
+![Casino Night Zone takes inside Mixcraft DAW](/images/i-love-wine-it-hates-me/casino-night-zone-takes.png){: w="704" h="168"}
