@@ -13,7 +13,7 @@ WINE, via anything but emulation, allows Windows executables to run natively *(i
 ## Game Development
 
 ![GameMaker: Studio 2 Logo](https://coal.gamemaker.io/sites/5d75794b3c84c70006700381/content_entry5f1ed2a9c4508d000782dcf3/5f5b8c56dbb16000072579be/files/gms2up.jpg?1678295770){: w="1920" h="1080"}
-_The GameMaker: Studio 2 logo (now called, simply, "GameMaker)"_
+_The GameMaker: Studio 2 logo (now called, simply, "GameMaker")_
 
 When I made the move to Linux, I still used [GameMaker](https://gamemaker.io/) (at the time called GameMaker: Studio 2) for creating games. It was the first game engine I properly put some time in, primarily through the likes of [Heartbeast](https://www.youtube.com/@uheartbeast) and [Shaun Spalding](https://www.youtube.com/@ShaunJS). But ever since the former began using it, a, now familiar, name began to pop up: **Godot**. I plan to talk about Godot in much more detail, but let's just say that it's *f\*cking fantastic* -- definitely a change from what I'm used to, and certainly something that I need to properly get stuck in to before I make something large scale, but brilliant nonetheless.
 
