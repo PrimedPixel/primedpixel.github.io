@@ -10,8 +10,6 @@ order: 4
 	- A short post about who I am and everything I'm up to.
 - [r/PrimedPixel](https://reddit.com/r/PrimedPixel)
 	- Official -- albeit rarely used -- Primed Pixel subreddit.
-- [Personal Twitter](https://twitter.com/MalachyTun)
-	- Personal Twitter, full of sh\*tposts and nonsense.
 - [Primed Pixel Twitter](https://twitter.com/PrimedPixel)
 	- Official Twitter, not full of anything, meaning it's way less spammy.
 - [Primed Pixel Email](mailto:malachy.tun@primedpixel.co.uk)
@@ -47,3 +45,11 @@ order: 4
 	- 2 Player -- made for the GMTK Jam 2021, a local multiplayer game in which you are joined together by a tether which has the ability to destroy enemies.
 - [GitHub](https://github.com/PrimedPixel)
 	- Contains source code for some games, as well as this very website.
+
+## Personal Socials
+- [Personal Twitter](https://twitter.com/MalachyTun)
+	- Personal Twitter, full of sh\*tposts and nonsense.
+- [Personal Instagram](https://www.instagram.com/primedpixel/)
+	- Personal Instagram, sometimes containing good photos
+- [The Chipstagram Man](https://www.instagram.com/the_chipstagram_man/)
+	- Chips McGee, he lieks chips.
