@@ -54,3 +54,13 @@ Esync is likely to be the only thing that ended up mattering here, but I also th
 Even with that, WINE is not perfect, and I still get weird, and frankly annoying crashes in Mixcraft, from time to time. This is *not* an insult or criticism to the people who make WINE possible, however, but rather a warning to those who could -- and should -- use WINE. So, for the one person that sees this, please *for the love of all things holy*, do ***not*** press play and save in Mixcraft at the same time. You will corrupt your project file and have to use a backup, which is a minor inconvenience if you didn't save recently. Especially if you just cut up a bunch of takes playing the Casino Night Zone theme from Sonic 2.
 
 ![Casino Night Zone takes inside Mixcraft DAW](/images/i-love-wine-it-hates-me/casino-night-zone-takes.png){: w="704" h="168"}
+
+## Update
+
+Okay so, turns out this problem was definitely not exclusive to Mixcraft. Mouse stuttering issues in WINE seem to be commonplace, with [certain bugs plaguing the Bugzilla forums](https://bugs.winehq.org/show_bug.cgi?id=46976). However, I believe I've come across two additional things that, *at least partially*, rectify this issue.
+
+You see, the issue came back whilst playing Subnautica through Proton (and ProtonGE). The first thing I did after a lot (and I mean *a lot*) of Googling was enabling C-States in my BIOS (or changing it from "automatic" to "enabled"). This seemed to help the stuttering, at least partially, but it didn't completely fix it. My previous solution of E-Sync or F-Sync didn't seem to change anything.
+
+Randomly, I was trying to get my microphone to be picked up, but nothing would detect it. A quick gander into the audio settings and I noticed my audio interface (Scarlet 2i2) was not set to "Direct Scarlet 2i2 USB", unlike how it previously was before I had to reinstall, due to an unrelated issue. So, I changed it from whatever it was before -- maybe Pro Audio but I'm not certain -- and two things changed: the sound quality was improved, particularly soundstage, unless that's just placebo. But more importantly, the mouse stuttering seemed to have completely vanished.
+
+Back when Subnautica was in early access, I had trouble running it on Windows due to audio issues, and the only solution was using Microsoft's default drivers, rather than the Realtek ones. So, the mouse stuttering issue in WINE may, in fact, be related to applications that heavily rely on certain audio features, e.g., DAWs. Obviously, there's also the fact that it could simply be coincidence, but it's certainly something to note. Anyway, that's all for this update. TL;DR: enable C-States and check audio settings in Linux, it might just fix it completely.
