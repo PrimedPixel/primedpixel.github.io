@@ -1,9 +1,16 @@
 ---
 title: "I love WINE; it hates me."
 date: 2023-08-13 01:06:58 +0100
-categories: [Music Production, Game Development]
-tags: [music production, gamedev, linux, wine, mixcraft, gamemaker, godot]
-author: <primedpixel>
+categories:
+    - Blog
+    - How-To
+tags:
+    - music production
+    - game development
+    - linux
+    - wine
+    - gamemaker
+    - godot
 ---
 
 [WINE](https://www.winehq.org/) is not an emulator, thus comes the acronym *"W.I.N.E."*, and is one of my favourite things. Why? Because I'm one of those cretins who had a mildly bad time with Windows, and then decided to sign away my rights and watch way too many [The Linux Experiment](https://www.youtube.com/c/TheLinuxExperiment) videos for my own good -- which is a long winded way of saying I began to use Linux. Honestly, the switch to Linux wasn't all too bad, and only two pieces of software were causing me trouble (i.e., had no equivalent that I initially planned on using).

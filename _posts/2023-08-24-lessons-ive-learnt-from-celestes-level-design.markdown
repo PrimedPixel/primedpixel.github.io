@@ -1,9 +1,16 @@
 ---
 title: "Lessons I've Learnt From Celeste's Level Design"
 date: 2023-08-24 19:43:38 +0100
-categories: [Game Development, Level Design]
-tags: [gamedev, level design, xekino, godot, platformers, celeste]
-author: <primedpixel>
+categories:
+    - Blog
+    - Essays
+tags:
+    - game development
+    - level design
+    - xekino
+    - godot
+    - platformers
+    - celeste
 ---
 
 ![Celeste Artwork](https://images.igdb.com/igdb/image/upload/t_original/ar7u5.jpg){: w="689" h="388"}

@@ -1,10 +1,14 @@
 ---
 title: "Hi, I'm Primed Pixel"
 date: 2023-08-05 02:18:52 +0100
-categories: [Website, YouTube]
-tags: [game development, music production, youtube]
-author: <primedpixel>
+categories:
+    - Blog
+tags:
+    - game development
+    - music production
+    - youtube
 ---
+
 ![Primed Pixel Logo](/images/primedpixel-logo.png){: w="1920" h="1080"}
 _The Primed Pixel Logo_
 
@@ -38,7 +42,7 @@ I also am an avid content creator -- *christ it sounds like i'm writing a bad CV
 
 My music channel is currently the one that's received the most attention, although I have a feeling that won't be the case in the near future. Here I mainly post covers -- or *sigh*... remixes -- of video game music. The most popular video so far (that wasn't just from when I used the channel for general things, including gamedev) is... not my finest work (at least I think so) -- but the most popular that I actually like is below!
 
-{% include embed/youtube.html id='xvMmV-hd03A' %}
+{% include video id="-xvMmV-hd03A" provider="youtube" %}
 
 ### [Primed Pixel Games](https://www.youtube.com/channel/UCyRLDg8W_QVKAwDZArN7MuA)
 
@@ -46,7 +50,7 @@ Now this is the channel that I expect to see become much more active, with video
 
 In the future, this might expand a bit further to retro gaming tech, but I'm not so certain if I want to exclusively bundle that in with the gamedev stuff yet, particularly how it's way off my radar.
 
-{% include embed/youtube.html id='LHcRUmmlZWA' %}
+{% include video id="-LHcRUmmlZWA" provider="youtube" %}
 
 ### [Primed Pixel Plays](https://www.youtube.com/channel/UC1yPj1dewYOFjHvh9yeUpIA)
 
