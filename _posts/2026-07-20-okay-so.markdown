@@ -1,6 +1,6 @@
 ---
 title: "Okay, so..."
-date: 2026-07-20 23:1301 +0100
+date: 2026-07-20 23:13:01 +0100
 categories:
   - Blog
   - Poems
