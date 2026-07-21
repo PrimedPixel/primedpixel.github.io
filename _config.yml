@@ -57,7 +57,7 @@ plugins:
 
 author:
   name   : "Malachy Moran-Tun"
-  avatar : "/assets/images/bio-photo.jpg"
+  avatar : "/images/bio-photo.jpg"
   bio    : "Blogs, essays, poems, and a lot of nonsensical 3 am ramblings from some idiot on the Internet who thinks himself too good to be sincere in other places on the web... and he's right."
   links:
     - label: "Instagram"
