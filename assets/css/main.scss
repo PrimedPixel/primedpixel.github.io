@@ -6,6 +6,78 @@ search: false
 @charset "utf-8";
 
 $link-color: #FF4F4F;
+$masthead-link-color: #FFF; // the masthead background is done manually as there's no variable for it'
+$masthead-link-color-hover: mix(#000, #FF4F4F, 35%);
+$footer-background-color: #FF4F4F;
+
+.page__footer {
+    color: $masthead-link-color !important; // override
+}
+
+.page__footer-follow .social-icons .svg-inline--fa {
+    color: inherit;
+}
+
+.masthead {
+    background: #FF4F4F !important; //override
+}
+
+.greedy-nav {
+    background: #FF4F4F !important; //override
+
+    .visible-links {
+        a {
+            &:before {
+                background: $masthead-link-color-hover !important
+            }
+        }
+    }
+}
+
+.search__toggle{
+    color: $masthead-link-color !important; //ovverride
+
+    &:hover {
+        color: $masthead-link-color-hover !important; //override
+    }
+}
+
+.author__content {
+    a {
+        color: #FF4F4F !important;
+    }
+}
+
+.site-logo img {
+    max-height: 3rem !important;
+}
+
+.sidebar {
+    opacity: 1 !important;
+}
+
+.author__avatar {
+    img {
+        border: unset !important;
+    }
+}
+
+.page__title {
+    a {
+        color: #FF4F4F !important;
+    }
+}
+
+h1 {
+    color: #FF4F4F !important;
+}
+
+.page__content {
+    h2 {
+        color: #FF4F4F !important;
+    }
+}
+
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials

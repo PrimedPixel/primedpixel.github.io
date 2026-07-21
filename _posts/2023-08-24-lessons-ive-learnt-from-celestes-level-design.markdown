@@ -11,10 +11,11 @@ tags:
     - godot
     - platformers
     - celeste
+header:
+    image: https://images.igdb.com/igdb/image/upload/t_original/ar7u5.jpg
+    image_description: Artwork of Celeste, featuring the main protagonist “Madeline”, main antagonist, affectionately known as “Badeline”, and “Theo”
+    teaser: https://images.igdb.com/igdb/image/upload/t_original/ar7u5.jpg
 ---
-
-![Celeste Artwork](https://images.igdb.com/igdb/image/upload/t_original/ar7u5.jpg){: w="689" h="388"}
-_Artwork of Celeste, featuring the main protagonist "Madeline", main antagonist, affectionately known as "Badeline", and "Theo"_
 
 Celeste is one of my favourite games of all time, which is why I obsess over emulating what makes it succeed in my own games -- XΞKINO is a platformer, currently very early in development, and as with all platformers, I need to think about how to make it actually fun, i.e., level design. So, I ask myself, why not take a look at one of the greatest platformers -- nay, greatest games -- of all time.
 

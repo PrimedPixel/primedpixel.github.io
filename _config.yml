@@ -19,6 +19,8 @@ description: >- # this means to ignore newlines until "baseurl:"
   Blogs, essays, poems, and a lot of nonsensical 3 am ramblings from some idiot on the Internet who thinks himself too good to be sincere in other places on the web... and he's right.
 minimal_mistakes_skin: default
 search: true
+og_image: /images/og.png
+og_image_alt: "Stylised initials for Primed Pixel"
 
 # Build settings
 markdown: kramdown
@@ -54,6 +56,11 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jekyll-seo-tag
+
+# Masthead
+logo: "/images/logo.png"
+masthead_title: " "
 
 author:
   name   : "Malachy Moran-Tun"
@@ -94,6 +101,8 @@ defaults:
       comments: true
       share: true
       related: true
+      show_date: true
+      enable_copy_code_button: true
   # _pages
   - scope:
       path: "_pages"

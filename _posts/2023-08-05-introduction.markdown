@@ -7,12 +7,11 @@ tags:
     - game development
     - music production
     - youtube
+header:
+    image: /images/primedpixel-logo.png
+    image_description: The Primed Pixel pixel-art logo
+    teaser: /images/primedpixel-logo.png
 ---
-
-![Primed Pixel Logo](/images/primedpixel-logo.png){: w="1920" h="1080"}
-_The Primed Pixel Logo_
-
-## Introduction
 
 Hey! It's me: your friendly neighbourhood person on the Internet, who decided to recreate a website at 2 in the morning (because don't we all!). If you've found me on a social media and randomly decided, for whatever reason, to click on my website and read what I assume will be a pinned post, hi? I guess?
 
